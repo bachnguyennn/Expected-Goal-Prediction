@@ -8,7 +8,7 @@ StatsBomb open data is free for public / academic use:
   https://github.com/statsbomb/open-data
 
 Default competitions downloaded
-  Training  : FIFA World Cup 2018  +  Champions League 2018/19
+  Training  : FIFA World Cup 2018  +  La Liga 2017/18 & 2018/19
   Test split: UEFA Euro 2020
 
 The script is idempotent — if shots_raw.parquet already exists it
@@ -17,7 +17,7 @@ verifies it and skips downloading, unless --force is passed.
 Usage:
     python data/download_data.py
     python data/download_data.py --force
-    python data/download_data.py --competitions 43,3 16,4 55,43
+    python data/download_data.py --competitions 43,3 11,1 11,4 55,43
 """
 from __future__ import annotations
 
@@ -159,7 +159,7 @@ if __name__ == "__main__":
     parser.add_argument("--force", action="store_true", help="Re-download even if file exists")
     parser.add_argument(
         "--competitions", nargs="*", metavar="COMP_ID,SEASON_ID",
-        help="Override competitions: e.g. 43,3 16,4 (defaults to World Cup + CL + Euro)"
+        help="Override competitions: e.g. 43,3 11,1 (defaults to World Cup + La Liga + Euro)"
     )
     args = parser.parse_args()
 

@@ -4,7 +4,7 @@ run_pipeline.py
 One-command end-to-end runner for the xG Betting Engine portfolio project.
 
 Steps:
-  1. Download StatsBomb shot data (World Cup 2018, CL 2018/19, Euro 2020)
+  1. Download StatsBomb shot data (World Cup 2018, La Liga 2017/18 & 2018/19, Euro 2020)
   2. Build shot-level xG features (distance, angle, freeze frame, etc.)
   3. Train + evaluate XGBoost xG model with SHAP interpretation
   4. Demo: match simulation + EV / Kelly bet sizing

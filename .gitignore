@@ -131,3 +131,6 @@ Thumbs.db
 # Kaggle / credentials
 kaggle.json
 .kaggle/
+
+# Claude Code local settings (per-machine)
+.claude/settings.local.json

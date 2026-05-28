@@ -7,7 +7,7 @@ xG  = probability that a shot results in a goal.
 
 Design decisions
   - Train / test split is by competition (temporal): train on World Cup 2018
-    and Champions League 2018/19, test on UEFA Euro 2020.  This mirrors a
+    and La Liga 2017/18 & 2018/19, test on UEFA Euro 2020.  This mirrors a
     real betting use-case where the model is trained on historical seasons
     and deployed on upcoming tournaments.
   - Primary metric: Brier score (proper scoring rule for probabilities) +
