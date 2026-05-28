@@ -1,0 +1,11 @@
+{
+  "model": "Our XGBoost xG (calibrated)",
+  "brier": 0.08496335180915363,
+  "auprc": 0.4403208152165,
+  "auroc": 0.8064658360357284,
+  "n_shots": 1289,
+  "goal_rate": 0.12024825446082234,
+  "statsbomb_brier": 0.07897571771547822,
+  "statsbomb_auprc": 0.5008072008072652,
+  "statsbomb_auroc": 0.8384536610343062
+}

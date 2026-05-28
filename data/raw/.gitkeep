@@ -1,0 +1,2 @@
+# Raw data files (adult.csv or adult.data) go here. Do not commit actual data.
+# Run: python data/download_data.py
